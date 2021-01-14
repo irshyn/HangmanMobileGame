@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/save_header">
+
+        <SwitchPreferenceCompat
+            app:key="saveOnClose"
+            app:summaryOff="@string/save_summary_off"
+            app:summaryOn="@string/save_summary_on"
+            app:title="@string/save_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/difficulty_title">
+
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/difficulty_entries"
+            app:entryValues="@array/difficulty_values"
+            app:key="difficultyLevel"
+            app:title="@string/difficulty_header"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

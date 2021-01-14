@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <LinearLayout
+        android:id="@+id/outerLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewInvitation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:text="@string/invitation"
+            style="@style/HeaderStyle"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:contentDescription="@string/imageDesc"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_happy_face" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLetters"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewLetter1"
+                style="@style/WordLettersStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/emptyLetter" />
+
+            <TextView
+                android:id="@+id/textViewLetter2"
+                style="@style/WordLettersStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/emptyLetter" />
+
+            <TextView
+                android:id="@+id/textViewLetter3"
+                style="@style/WordLettersStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/emptyLetter" />
+
+            <TextView
+                android:id="@+id/textViewLetter4"
+                style="@style/WordLettersStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/emptyLetter" />
+
+            <TextView
+                android:id="@+id/textViewLetter5"
+                style="@style/WordLettersStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/emptyLetter" />
+
+            <TextView
+                android:id="@+id/textViewLetter6"
+                style="@style/WordLettersStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/emptyLetter" />
+
+            <TextView
+                android:id="@+id/textViewLetter7"
+                style="@style/WordLettersStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/emptyLetter" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

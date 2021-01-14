@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Hangperson Game</string>
+    <string name="invitation">Try and guess the word!</string>
+    <string name="correct_guess">Correct!</string>
+    <string name="incorrect_guess">Wrong</string>
+    <string name="imageDesc">Image for attempt results</string>
+    <string name="emptyLetter">___</string>
+    <string name="select_letter">Type in one letter and press "Try":</string>
+    <string name="try_letter">Try</string>
+    <string name="win_message">Congrats, you won!</string>
+    <string name="lost_message">Oops, you lost. Better luck next time!</string>
+
+    <!--> Menu strings -->
+    <string name="settings">Settings</string>
+    <string name="statistics">Statistics</string>
+    <string name="title_activity_settings">Hangperson Game Settings</string>
+    <string name="title_activity_statistics">Hangperson Game Statistics</string>
+
+    <!-- Save Preference Titles -->
+    <string name="save_header">Save Game</string>
+    <string name="save_title">Save game on close</string>
+    <string name="save_summary_on">Last game will be restored on startup</string>
+    <string name="save_summary_off">Launch a new game on startup</string>
+
+    <!-- Difficulty Preferences -->
+    <string name="difficulty_title">Difficulty Level</string>
+    <string name="difficulty_header">Select game difficulty</string>
+    <string name="title_activity_stats">StatsActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="total_won">Total Won: </string>
+    <string name="total_lost">Total Lost:</string>
+    <string name="average_good_guesses">Average Good Guesses:</string>
+    <string name="average_bad_guesses">Average Bad Guesses:</string>
+    <string name="reset">reset</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
