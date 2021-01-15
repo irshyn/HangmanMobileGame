@@ -3,4 +3,4 @@ Mobile rendition of the classic Hangman game: a 7-letter word is pulled from a r
 
 **Technology stack: Java, XML**
 
-
+<img src="https://imgur.com/0gGHkzl" width="300">
